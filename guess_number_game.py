@@ -44,6 +44,8 @@ def get_number_of_attempts(min_number: int, max_number: int) -> int:
             "Invalid input: Number of attempts must be a positive integer."
         )
 
+        raise ValueError
+
     return number_of_attempts_input
 
 
